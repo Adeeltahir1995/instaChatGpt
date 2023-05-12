@@ -1,0 +1,49 @@
+.templateBox {
+    width: 280px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    &__background {
+        height: 150px;
+        border-radius: 8px 8px 0 0;
+        background: #833ab4; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #fcb045,
+            #fd1d1d,
+            #833ab4
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: flex;
+        align-items: end;
+        padding: 20px 18px;
+        span {
+            font-size: 24px;
+            color: white;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+    }
+    &__detail {
+        border-radius: 0 0 8px 8px;
+        border: 1px solid #e6e6e6;
+        background-color: #f2f8ff2e;
+        border-top: 0;
+        padding: 12px 16px 18px 16px;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: #f2f8ffd6;
+        }
+
+        &-title {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        &-para {
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 6px;
+            color: #a1a1a1;
+        }
+    }
+}

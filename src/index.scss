@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Light.woff2') format('woff2'),
+      url('./fonts/Graphik-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Extralight.woff2') format('woff2'),
+      url('./fonts/Graphik-Extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Bold.woff2') format('woff2'),
+      url('./fonts/Graphik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Black.woff2') format('woff2'),
+      url('./fonts/Graphik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Regular.woff2') format('woff2'),
+      url('./fonts/Graphik-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Medium.woff2') format('woff2'),
+      url('./fonts/Graphik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Thin.woff2') format('woff2'),
+      url('./fonts/Graphik-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik Super';
+  src: url('./fonts/Graphik-Super.woff2') format('woff2'),
+      url('./fonts/Graphik-Super.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('./fonts/Graphik-Semibold.woff2') format('woff2'),
+      url('./fonts/Graphik-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Graphik", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #FF5509;
+  font-size: 16px;
+  font-weight: 500;
+}

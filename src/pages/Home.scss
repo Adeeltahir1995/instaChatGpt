@@ -1,0 +1,38 @@
+.home {
+    &__banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 350px;
+        background: #FF5509; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #000000, #FF5509); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+            to right,
+            #000000,
+            #FF5509
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        span {
+            font-size: 58px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+    &__main {
+        width: 1080px;
+        margin: 36px auto;
+        &-title {
+            font-size: 22px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 12px;
+            font-weight: 400;
+            color: #757c99;
+            margin-top: 8px;
+        }
+        &-templates{
+            margin-top: 48px;
+        }
+    }
+}

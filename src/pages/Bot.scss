@@ -1,0 +1,93 @@
+.bot {
+    max-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__prompt {
+        display: flex;
+        flex-direction: column;
+        &-question {
+            padding: 24px 24px;
+            border-bottom: 1px solid #e6e6e6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            section {
+                width: 450px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                span {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #ff5509; /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #000000, #ff5509); /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #000000, #ff5509);
+                }
+            }
+            &-text {
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.chat {
+    position: fixed;
+    left: 50%;
+    top: 90%;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transform: translate(-50%, -50%);
+
+    &__button {
+        display: flex;
+        gap: 12px;
+        button {
+            background-color: rgba(255, 255, 255, 0.072);
+            border: none;
+            outline: none;
+            border: 1px solid #e6e6e6;
+            border-radius: 4px;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 24px;
+            font-size: 10px;
+            font-weight: 400;
+            cursor: pointer;
+            box-shadow: rgba(227, 232, 252, 0.6) 0px 1px 40px;
+        }
+    }
+
+    &__box {
+        background-color: white;
+        border: 1px solid #e6e6e6;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        padding: 8px 8px;
+        gap: 12px;
+        box-shadow: rgba(227, 232, 252, 0.6) 0px 1px 40px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            background-color: transparent;
+            font-size: 12px;
+            flex: 1;
+            width: 100%;
+            font-weight: 400;
+        }
+    }
+}

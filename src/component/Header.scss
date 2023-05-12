@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    padding: 0.8rem 2rem;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #e3e8fc;
+    position: relative;
+    section {
+        display: flex;
+        align-items: center;
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        span {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 6px;
+            background: #ff5509; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #000000, #ff5509); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(
+                to right,
+                #000000,
+                #ff5509
+            ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    }
+}
+
+.header {
+    &__prompt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        width: 450px;
+        font-size: 11px;
+        font-weight: 500;
+        padding: 8px 12px;
+        border: 1px solid #e6e6e6;
+        border-radius: 4px;
+    }
+}
