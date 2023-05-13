@@ -26,6 +26,12 @@ const InputModal = ({ setInput, input }) => {
             type="text"
             placeholder="a photo/video of a person meditating in serene setting"
             title="Write a story"
+            onKeyDown={(event) => {
+              if (event.key === "Enter" && Boolean(prompt)  ) {
+                navigate(`/bot/${prompt}`);
+                setInput(false);
+              }
+            }}
           />
         </section>
         <button
